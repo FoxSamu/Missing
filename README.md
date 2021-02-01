@@ -5,7 +5,13 @@ theme of the missing block texture. They are available as blocks, slabs, stairs 
 
 ![screenshot](screenshot.png)
 
-### [Download v1.0](https://maven.shadew.net/net/shadew/missing/1.0/missing-1.0.jar)
+### [Download v1.0 for 1.16.5](https://maven.shadew.net/net/shadew/missing/1.0/missing-1.0.jar)
+
+Requirements:
+
+- Minecraft 1.16.5
+- [Fabric Loader](https://fabricmc.net/use/)
+- [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api) as a mod dependency
 
 ### Crafting recipe
 
