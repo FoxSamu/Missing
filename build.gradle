@@ -62,14 +62,24 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             artifact(remapJar) {
+                artifactId project.archives_base_name
                 builtBy remapJar
             }
             artifact(sourcesJar) {
+                artifactId project.archives_base_name
                 builtBy remapSourcesJar
             }
         }
     }
 
     repositories {
+        maven {
+            name = "ShadewMaven"
+            url = uri( "https://maven.shadew.net/" )
+            credentials {
+                username = shwMavenUser
+                password = shwMavenPass
+            }
+        }
     }
 }
