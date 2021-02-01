@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "missing:block/missing_bricks",
+    "top": "missing:block/missing_bricks",
+    "side": "missing:block/missing_bricks"
+  }
+}

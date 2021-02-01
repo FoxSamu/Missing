@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "missing:block/missing_brick_slab"
+    },
+    "type=double": {
+      "model": "missing:block/missing_bricks"
+    },
+    "type=top": {
+      "model": "missing:block/missing_brick_slab_top"
+    }
+  }
+}

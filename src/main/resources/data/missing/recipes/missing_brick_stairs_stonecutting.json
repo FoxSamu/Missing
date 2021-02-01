@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "missing:missing_bricks"
+  },
+  "result": "missing:missing_brick_stairs",
+  "count": 1
+}

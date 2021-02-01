@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "missing:missing_bricks"
+    }
+  },
+  "result": {
+    "item": "missing:missing_brick_stairs",
+    "count": 4
+  }
+}
