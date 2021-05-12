@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "mmm",
+    " m ",
+    "mmm"
+  ],
+  "key": {
+    "m": {
+      "item": "missing:missing_bricks"
+    }
+  },
+  "result": {
+    "item": "missing:missing_brick_column",
+    "count": 6
+  }
+}

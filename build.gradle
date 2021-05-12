@@ -15,6 +15,14 @@ repositories {
         name = "Jitpack"
         url = "https://jitpack.io"
     }
+    maven {
+        name = "Cotton"
+        url = "https://server.bbkr.space/artifactory/libs-release"
+    }
+    maven {
+        name = "Curse"
+        url = "https://www.cursemaven.com"
+    }
 }
 
 dependencies {
@@ -30,6 +38,11 @@ dependencies {
     modRuntime ("com.github.joaoh1:OkZoomer:master-SNAPSHOT") {
         exclude ( group: "net.fabricmc.fabric-api" )
     }
+
+    include "io.github.cottonmc:LibCD:3.0.3+1.16.3"
+    modImplementation "io.github.cottonmc:LibCD:3.0.3+1.16.3"
+
+    modImplementation "curse.maven:columns-385230:3107117"
 }
 
 processResources {
