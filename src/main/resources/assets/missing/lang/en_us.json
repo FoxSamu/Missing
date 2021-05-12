@@ -2,5 +2,6 @@
   "block.missing.missing_bricks": "Missing Bricks",
   "block.missing.missing_brick_slab": "Missing Brick Slab",
   "block.missing.missing_brick_stairs": "Missing Brick Stairs",
-  "block.missing.missing_brick_wall": "Missing Brick Wall"
+  "block.missing.missing_brick_wall": "Missing Brick Wall",
+  "block.missing.missing_brick_column": "Missing Brick Column"
 }
